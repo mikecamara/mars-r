@@ -1,0 +1,13 @@
+{
+    "extends":"../tsconfig.json",
+    "references": [{
+        "name": "mars-r",
+        "path": ".."
+    }],
+    "compilerOptions": {
+        "types":["jest"],
+        "rootDir": "..",
+        "noEmit": true,
+    },
+    "include": ["."]
+}
