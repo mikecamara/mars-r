@@ -7,7 +7,7 @@
     "compilerOptions": {
         "types":["jest"],
         "rootDir": "..",
-        "noEmit": true,
+        "noEmit": true, 
     },
     "include": ["."]
 }
